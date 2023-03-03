@@ -2,11 +2,43 @@ public class Test_Student {
     public static void main(String[] args) {
         System.out.println("Probando clase student");
     Student valentin69 = new Student();
-        System.out.println("valentin69 = " + valentin69);
 
         valentin69.setName("Valentin");
-        System.out.println("El nombre es: " + valentin69.getName());
         valentin69.setControlNumber(22670011L);
-        System.out.println("El numero de ctrl es :"+ valentin69.getControlNumber());
+        valentin69.setCareer("INF");
+        valentin69.setLastName("  Zavaleta " );
+        valentin69.setSemester("Segundo");
+
+
+
+
+       valentin69.toString();
+       valentin69.setName("juan pedro");
+       valentin69.toString();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

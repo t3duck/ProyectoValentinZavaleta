@@ -3,7 +3,7 @@ public class Student {
     private String name;
     private String lastName;
     private String career;
-    private short semester;
+    private String semester;
 
 
     public Long getControlNumber() {
@@ -22,7 +22,7 @@ public class Student {
         return career;
     }
 
-    public short getSemester() {
+    public String getSemester() {
         return semester;
     }
 
@@ -42,7 +42,17 @@ public class Student {
         this.career = career;
     }
 
-    public void setSemester(short semester) {
+    public void setSemester(String semester) {
         this.semester = semester;
+    }
+
+    public String toString(){
+        System.out.println("los datos del estudiante");
+        System.out.println("nombre: "+getName());
+        System.out.println("apellido: "+getLastName());
+        System.out.println("el numero de control es: "+getControlNumber());
+        System.out.println("el semestre es: "+getSemester());
+        System.out.println("la carrera es: "+getCareer());
+        return "";
     }
 }
